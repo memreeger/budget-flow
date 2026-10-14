@@ -1,1 +1,33 @@
 @import "tailwindcss";
+@source "./**/*.{js,jsx,ts,tsx}";
+
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f6f7fb;
+  color: #0f172a;
+  font-family: Inter, "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+select {
+  cursor: pointer;
+}
